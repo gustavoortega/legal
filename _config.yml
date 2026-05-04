@@ -1,0 +1,20 @@
+title: Legal — Gustavo Ortega
+description: Privacy policies and legal documents for my apps
+theme: jekyll-theme-minimal
+
+plugins:
+  - jekyll-relative-links
+
+relative_links:
+  enabled: true
+  collections: true
+
+include:
+  - README.md
+  - LICENSE
+  - SECURITY.md
+
+exclude:
+  - .git
+  - .github
+  - .gitignore
